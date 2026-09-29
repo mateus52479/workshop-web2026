@@ -4,7 +4,7 @@ Altere os valores entre as aspas para personalizar a sua aplicação!
 ========================================================================== */
 const APP_CONFIG = {
   // 1. Nome e Subtítulo do Produto do seu Squad
-  appTitle: "ModOn",
+  appTitle: "Workshop",
   appSubtitle: "Foco & Produtividade",
   
   // 2. Ícone da Marca (Escolha no FontAwesome (https://fontawesome.com/): fa-gamepad, fa-mug-hot, fa-vr-cardboard, etc)
@@ -13,16 +13,16 @@ const APP_CONFIG = {
   // 3. Cores e Imagem de Fundo (https://unsplash.com/s/photos)
   //clique com o botão direito sobre a imagem e selecione a opção "Copiar endereço da imagem"
   theme: {
-    primaryColor: "#8b5cf6",
-    accentColor: "#ec4899",
+    primaryColor: "#5cf6c8ff",
+    accentColor: "#ceec48ff",
     bgOverlay: "rgba(15, 23, 42, 0.84)",
-    bgImageUrl: "https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?auto=compress&cs=tinysrgb&w=1920"
+    bgImageUrl: "https://i.pinimg.com/564x/29/c1/08/29c10812b6f5cf7589820f9324e47490.jpg"
   },
 
   // 4. Tempos do Cronometro (em minutos)
   timer: {
-    focusMinutes: 25, //modo foco 
-    breakMinutes: 5   //pausa
+    focusMinutes: 60, //modo foco 
+    breakMinutes: 15   //pausa
   },
 
   // 5. Vídeo de Fundo do Modo Foco (https://www.pexels.com/pt-br/procurar/videos/)
@@ -34,8 +34,8 @@ const APP_CONFIG = {
   spotifyPlaylistUrl: "https://open.spotify.com/playlist/679wCT6dVMDBxrYa5NcrXL?si=qp9eut2bSjWDacg7I7Vy3A",
 
   // 7. Créditos da Equipe (Aparece no Rodapé)
-  authorName: "Hyan & Ramon",
-  devDate: "Setembro, 2026",
+  authorName: "Mateus",
+  devDate: "quase outubro, 2026",
 
   // 8. Tarefas Iniciais do Quadro de tarefas
   tasks: [
